@@ -62,20 +62,16 @@ p {
     
 }
 
-.green-box {
-    position: relative;
-    background: #4aaaa5;
-    height: 5px;
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-
-}
-
-.gray-box {
-    position: absolute;
-    background: #666666;
-    Height: 65px;
-    Width: 100%;
-    margin-bottom: 0px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
     text-align: center;
 
 }
@@ -94,5 +90,24 @@ p {
     width: 200px;
     text-align: center;
     bottom: 20px;
+}
+
+@media screen and (max-width: 980px) {
+    .white-box {
+        background-color: #ffffff;
+        padding: 5px;
+        margin-left: 15px;
+        margin-top: 15px;
+        max-width: 780px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
 }
    
